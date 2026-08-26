@@ -104,7 +104,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.btn-suporte {
+  background-color: #ffcc00;
+  color: #003366;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
+.btn-suporte:hover {
+  background-color: #e6b800;
+}
 .destaque-principal {
   grid-column: span 2;
   background-color: #eef5ff;
