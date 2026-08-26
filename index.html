@@ -81,7 +81,7 @@
       <h2>Receba as Notícias em Primeira Mão</h2>
       <p>Cadastre seu e-mail para receber boletins diários com as principais novidades da tecnologia.</p>
 
-      <form class="form-newsletter">
+      <form class="form-newsletter" onsubmit="alert('Obrigado pela inscrição! Fique atento ao seu e-mail.'); console.log('Novo cadastro de newsletter recebido.'); return false;"></form>
         <div class="campo-grupo">
           <label for="nome">Nome Completo</label>
           <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -93,8 +93,7 @@
         </div>
 
         <button type="submit" class="btn-enviar">Inscrever-se</button>
-        <form class="form-newsletter" onsubmit="alert('Obrigado pela inscrição! Fique atento ao seu e-mail.'); console.log('Novo cadastro de newsletter recebido.'); return false;"></form>
-      </form>
+       
     </div>
   </section>
 
