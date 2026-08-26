@@ -8,6 +8,4 @@ console.log("Visitante ativo: " + nomeVisitante);
 // Pergunta se deseja ativar as notificações do site
 let desejaNoticias = confirm("Deseja receber notificações sobre novas matérias?");
 console.log("Aceitou receber notificações: " + desejaNoticias);
-<prompt>
-    
-</prompt>
+
